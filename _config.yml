@@ -13,7 +13,7 @@ baseurl: ''
 lang: ko-KR
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale: ko.js
+prefer_datetime_locale: ko
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Seoul
@@ -21,9 +21,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: SangMin B                          # the main title
+title: SangMin's Blog
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: SangMin B의 개발 블로그   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -34,18 +34,17 @@ url: 'https://bsangmin.github.io'
 github:
   username: bsangmin             # change to your github username
 
-twitter:
-  username:             # change to your twitter username
+# twitter:
+#   username:             # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: myname
-  email: example@doamin.com             # change to your email address
+  name: SangMin B
+  # email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/bsangmin       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
